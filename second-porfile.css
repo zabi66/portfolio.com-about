@@ -519,4 +519,114 @@ h3{
     font-size: 25px;
    }
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+}
 
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+h1, h2, h3, p, .learn, .goal, .cour, .contact1, .contact3, .form, .thanks {
+    padding: 0 20px;
+}
+
+.abouth, .pro, .goal {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 0;
+}
+
+p, .p {
+    font-size: 1rem;
+}
+
+.contact, .Home, .About, .Work, .Goals {
+    flex: 1;
+}
+
+/* Adjusting Images for Responsiveness */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Form Styling */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Flex Container for Sections */
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Media Queries */
+@media screen and (min-width: 600px) {
+    nav a {
+        font-size: 1.2rem;
+    }
+    h1, h2, h3 {
+        font-size: larger;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container, .subcontainer {
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    nav {
+        justify-content: space-between;
+    }
+    nav ul {
+        gap: 40px;
+    }
+    h1, .abouth, .pro, .goal {
+        font-size: 2.5rem;
+    }
+}
