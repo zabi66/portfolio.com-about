@@ -507,7 +507,7 @@ h3{
         top: 230px;
         font-size: 34px;
     }
-     /* About */
+/*      About 
      .abouth {
         position:relative; 
        top: 80px;
@@ -561,7 +561,7 @@ p, .p {
 .contact, .Home, .About, .Work, .Goals {
     flex: 1;
 }
-
+ */
 /* Adjusting Images for Responsiveness */
 img {
     max-width: 100%;
